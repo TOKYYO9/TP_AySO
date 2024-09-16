@@ -1,0 +1,81 @@
+ls
+man ls
+pwd
+cd repogit/
+git clone https://github.com/TOKYYO9/repo-turtl.git
+ls
+cd repo-turtl/
+ls
+history > historial.txt
+cat historial.txt
+git status
+git add .
+git status
+git commit -m "Mi primer commit"
+git config --global user.email "itzmoskid@gmail.com"
+git config --global user.name "TOKYYO9"
+git commit -m "Mi primer commit"
+git push
+git status
+exit
+pwd
+echo $HOME
+ls
+clear
+ls
+ls -l
+ls -la
+clear
+ssh-keygen -t ed25519
+ls -la
+cd .ssh
+ls
+ls -l
+cd ..
+cd .ssh
+ls -l
+cat id_ed25519.pub
+cd ..
+ls -l
+cd repogit
+ls -l
+git clone git@github.com:TOKYYO9/repo-turtl.git
+ls -l
+cd repo-turtl
+ls -l
+echo "hola"
+echo "hola" > hola.txt
+ls -l
+cat hola.txt
+git status
+git add .
+git status
+git commit -m "Agregue un archivo txt"
+git statis
+git status
+git push
+git status
+git config --global user.email "itzmoskid@gmail.com"
+git config --global user.name "TOKYYO9"
+git push
+lscpu
+cd repogit
+cd TP_AySO/
+git status
+cat README.md 
+ls
+ls -o
+ls -la
+cat << FIN >> README.md
+Usuario: Juan Ignacio Turtl
+Division: 115
+Turno: Mañana
+FIN
+
+cat README.md 
+git status
+git add .
+git commit -m "ADD: Añadiendo informacion de alumno, division y turno al archivo README"
+history
+history -a $HOME/.bash_history
+echo "$(history -a $HOME/.bash_history)" > Historial_comandos_Juan_Ignacio_Turtl.txt
